@@ -1,12 +1,11 @@
 import React from 'react';
-
+import Header from './components/Layout/Header';
 
 function App() {
   return (
-    <div>
-        <h1> Hiie  222</h1>
-        
-    </div>
+    <>
+        <Header/>    
+    </>
   );
 }
 

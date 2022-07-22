@@ -11,7 +11,7 @@ const Header = props => {
                     React Meal Menu App
                 </h1>
 
-                <HeaderCartButton/>
+                <HeaderCartButton onClick = {props.onShowCart}/>
 
             </header>
 
